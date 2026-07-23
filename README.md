@@ -42,6 +42,9 @@
 
 <br /><br />
 
+<!-- THE ROWING JOURNEY ANIMATION -->
+<img src="rowing_journey.svg" width="100%" />
+
 <!-- STABLE ZEN FOOTER -->
 <img src="footer_zen.svg" width="100%" />
 

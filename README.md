@@ -29,7 +29,7 @@
 
 ---
 
-<!-- 04_THE_INSPIRATION_TERMINAL (Electric Spark Background) -->
+<!-- 04_THE_INSPIRATION_TERMINAL -->
 <img src="inspiration_fire.svg" width="100%" />
 
 <p align="center"><em>Have an intrusive thought for a new world? Let's manifest it.</em></p>
@@ -42,8 +42,9 @@
 
 <br /><br />
 
-<!-- 05_LIFE_PULSE_HEARTBEAT (Slim Ribbon Edition) -->
-<img src="electric_transmission.svg" width="100%" />
+<!-- 05_LIFE_PULSE_HEARTBEAT (Constrained Ribbon Height) -->
+<!-- Adding ?v=2 forces GitHub to refresh the cache to the new slim version -->
+<img src="electric_transmission.svg?v=2" width="100%" height="40" />
 
 <p align="center">
   <code>[ SYSTEM_CORE_PULSE: STABLE_MINIMAL ]</code>

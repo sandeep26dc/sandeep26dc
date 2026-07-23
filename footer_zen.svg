@@ -1,0 +1,8 @@
+<svg width="1000" height="50" viewBox="0 0 1000 50" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1000" height="50" fill="#05070A" />
+  <line x1="100" y1="25" x2="400" y2="25" stroke="#00F0FF" stroke-width="0.5" stroke-opacity="0.3" />
+  <text x="50%" y="30" dominant-baseline="middle" text-anchor="middle" font-family="monospace" font-size="12" fill="#00F0FF" style="letter-spacing: 4px;">
+    ZEN PERFORMANCE • 2026 • PURE OPEN SOURCE
+  </text>
+  <line x1="600" y1="25" x2="900" y2="25" stroke="#00F0FF" stroke-width="0.5" stroke-opacity="0.3" />
+</svg>

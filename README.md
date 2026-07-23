@@ -42,7 +42,7 @@
 
 <br /><br />
 
-<!-- 05_LIFE_PULSE_HEARTBEAT (Razor-Thin 0.8px Minimalist Loop) -->
+<!-- 05_LIFE_PULSE_HEARTBEAT (Slim Ribbon Edition) -->
 <img src="electric_transmission.svg" width="100%" />
 
 <p align="center">

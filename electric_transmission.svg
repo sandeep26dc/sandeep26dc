@@ -1,48 +1,49 @@
-<svg width="1000" height="150" viewBox="0 0 1000 150" xmlns="http://www.w3.org/2000/svg">
+<svg width="1000" height="200" viewBox="0 0 1000 200" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <!-- Multi-layered glow filter for the plasma effect -->
-    <filter id="plasma-glow" x="-50%" y="-50%" width="200%" height="200%">
-      <feGaussianBlur stdDeviation="4" result="blur" />
+    <!-- Medical Monitor Glow -->
+    <filter id="ecg-glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur" />
       <feComposite in="SourceGraphic" in2="blur" operator="over" />
     </filter>
-    
-    <linearGradient id="bolt-gradient" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#FF4500" stop-opacity="0" />
-      <stop offset="50%" stop-color="#FF0000" stop-opacity="0.8" />
-      <stop offset="100%" stop-color="#FFFFFF" />
+
+    <!-- Fading Mask Logic -->
+    <linearGradient id="fade-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="black" stop-opacity="1" />
+      <stop offset="90%" stop-color="black" stop-opacity="1" />
+      <stop offset="100%" stop-color="black" stop-opacity="0" />
     </linearGradient>
+
+    <mask id="scan-mask">
+      <rect x="-1000" y="0" width="1000" height="200" fill="white">
+        <animateTransform attributeName="transform" type="translate" from="0,0" to="2000,0" dur="4s" repeatCount="indefinite" />
+      </rect>
+    </mask>
   </defs>
 
-  <rect width="1000" height="150" fill="#05070A" />
+  <!-- Background -->
+  <rect width="1000" height="200" fill="#05070A" />
 
-  <!-- THE TRANSMISSION BOLT GROUP -->
-  <g filter="url(#plasma-glow)">
-    <animateTransform attributeName="transform" type="translate" from="-400,0" to="1200,0" dur="3s" repeatCount="indefinite" />
-    
-    <!-- Trail Smoke/Plasma -->
-    <path d="M0 75 Q -50 60 -100 75 T -200 75" fill="none" stroke="#FF4500" stroke-width="15" stroke-linecap="round" opacity="0.3">
-        <animate attributeName="stroke-width" values="15;25;15" dur="0.2s" repeatCount="indefinite" />
+  <!-- The Monitor Grid -->
+  <path d="M 0 0 L 1000 0 M 0 50 L 1000 50 M 0 100 L 1000 100 M 0 150 L 1000 150 M 0 200 L 1000 200 M 0 0 L 0 200 M 50 0 L 50 200 M 100 0 L 100 200 M 150 0 L 150 200 M 200 0 L 200 200 M 250 0 L 250 200 M 300 0 L 300 200 M 350 0 L 350 200 M 400 0 L 400 200 M 450 0 L 450 200 M 500 0 L 500 200 M 550 0 L 550 200 M 600 0 L 600 200 M 650 0 L 650 200 M 700 0 L 700 200 M 750 0 L 750 200 M 800 0 L 800 200 M 850 0 L 850 200 M 900 0 L 900 200 M 950 0 L 950 200 M 1000 0 L 1000 200" 
+        fill="none" stroke="#FF0000" stroke-width="0.5" stroke-opacity="0.1" />
+
+  <!-- The ECG Heartbeat Line (P-QRS-T Waveform) -->
+  <g filter="url(#ecg-glow)" mask="url(#scan-mask)">
+    <path d="M 0 100 L 100 100 L 110 90 L 120 100 L 140 100 L 150 40 L 160 160 L 170 100 L 200 100 L 220 80 L 240 100 L 350 100 L 360 90 L 370 100 L 390 100 L 400 40 L 410 160 L 420 100 L 450 100 L 470 80 L 490 100 L 600 100 L 610 90 L 620 100 L 640 100 L 650 40 L 660 160 L 670 100 L 700 100 L 720 80 L 740 100 L 850 100 L 860 90 L 870 100 L 890 100 L 900 40 L 910 160 L 920 100 L 950 100 L 970 80 L 1000 100" 
+          fill="none" stroke="#FF0000" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
     </path>
-
-    <!-- Main Jagged Lightning Arcs (Trailing) -->
-    <g stroke="#FF0000" stroke-width="2" fill="none">
-        <!-- Top Arc -->
-        <path d="M0 75 L -30 55 L -60 85 L -100 65 L -150 75">
-            <animate attributeName="d" values="M0 75 L -30 55 L -60 85 L -100 65 L -150 75; M0 75 L -35 45 L -55 95 L -105 55 L -150 75; M0 75 L -30 55 L -60 85 L -100 65 L -150 75" dur="0.15s" repeatCount="indefinite" />
-        </path>
-        <!-- Bottom Arc -->
-        <path d="M0 75 L -40 95 L -80 65 L -120 105 L -180 75" opacity="0.6">
-            <animate attributeName="d" values="M0 75 L -40 95 L -80 65 L -120 105 L -180 75; M0 75 L -45 110 L -75 55 L -125 120 L -180 75; M0 75 L -40 95 L -80 65 L -120 105 L -180 75" dur="0.2s" repeatCount="indefinite" />
-        </path>
-    </g>
-
-    <!-- The Spearhead / Core of Energy -->
-    <path d="M10 75 L -20 68 L -15 75 L -20 82 Z" fill="#FFFFFF" />
-    <circle cx="0" cy="75" r="5" fill="#FF0000">
-        <animate attributeName="r" values="5;8;5" dur="0.1s" repeatCount="indefinite" />
-    </circle>
   </g>
 
-  <!-- Ground/Static subtle interference line -->
-  <line x1="0" y1="149" x2="1000" y2="149" stroke="#FF0000" stroke-width="0.5" stroke-opacity="0.2" />
+  <!-- The Bright Leading Scanning Head -->
+  <g filter="url(#ecg-glow)">
+    <circle cx="0" cy="100" r="4" fill="#FFFFFF">
+        <animateTransform attributeName="transform" type="translate" from="0,0" to="1000,0" dur="4s" repeatCount="indefinite" />
+        <!-- Vertical motion logic to follow the path spikes -->
+        <animate attributeName="cy" values="100;100;90;100;100;40;160;100;100;80;100;100;90;100;100;40;160;100;100;80;100;100;90;100;100;40;160;100;100;80;100;100;90;100;100;40;160;100;100;80;100" dur="4s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="0" cy="100" r="8" fill="#FF0000" opacity="0.4">
+        <animateTransform attributeName="transform" type="translate" from="0,0" to="1000,0" dur="4s" repeatCount="indefinite" />
+        <animate attributeName="cy" values="100;100;90;100;100;40;160;100;100;80;100;100;90;100;100;40;160;100;100;80;100;100;90;100;100;40;160;100;100;80;100;100;90;100;100;40;160;100;100;80;100" dur="4s" repeatCount="indefinite" />
+    </circle>
+  </g>
 </svg>

@@ -42,4 +42,28 @@
           
           <!-- Arms & Oar Group -->
           <g transform="translate(5, -25)">
-            <animateTransform attributeName="transform" type="rotate" values="-20; 40; -20" dur="3s" repeat
+            <animateTransform attributeName="transform" type="rotate" values="-20; 40; -20" dur="3s" repeatCount="indefinite" />
+            <!-- Arm -->
+            <line x1="0" y1="0" x2="20" y2="10" stroke="#00F0FF" stroke-width="4" stroke-linecap="round" />
+            <!-- Oar Handle to Blade -->
+            <line x1="-60" y1="50" x2="30" y2="-5" stroke="#00F0FF" stroke-width="2" />
+            <!-- Oar Blade -->
+            <path d="M-60 50 L-75 70 L-85 65 L-70 45 Z" fill="#00F0FF">
+                <!-- Blade dipping animation -->
+                <animate attributeName="opacity" values="0.2; 1; 0.2" dur="3s" repeatCount="indefinite" />
+            </path>
+          </g>
+        </g>
+      </g>
+      
+      <!-- Oar Splash Ripple (Appears only during the pull) -->
+      <ellipse cx="40" cy="155" rx="10" ry="2" fill="none" stroke="#00F0FF" stroke-width="1">
+          <animate attributeName="rx" values="0;20" dur="3s" repeatCount="indefinite" />
+          <animate attributeName="opacity" values="0;0.5;0" dur="3s" repeatCount="indefinite" />
+      </ellipse>
+    </g>
+  </g>
+
+  <!-- Ground Line -->
+  <line x1="0" y1="179" x2="1000" y2="179" stroke="#00F0FF" stroke-width="0.5" stroke-opacity="0.2" />
+</svg>

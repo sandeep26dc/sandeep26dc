@@ -48,4 +48,10 @@
   </g>
 
   <!-- Main Title -->
-  <text x="50%" y="45%" dominant-baseline="middle" text-anchor="middle" font-family="Verdana, sans-serif" font-size="32" font-weight="900
+  <text x="50%" y="45%" dominant-baseline="middle" text-anchor="middle" font-family="Verdana, sans-serif" font-size="32" font-weight="900" fill="#FFFFFF" style="letter-spacing: 8px; filter: drop-shadow(0 0 5px #00F0FF);">
+    THE INSPIRATION TERMINAL
+  </text>
+  <text x="50%" y="65%" dominant-baseline="middle" text-anchor="middle" font-family="monospace" font-size="14" fill="#00F0FF" style="letter-spacing: 2px; opacity: 0.7;">
+    A NEW WORLD AWAITS MANIFESTATION
+  </text>
+</svg>

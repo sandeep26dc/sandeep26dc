@@ -1,34 +1,34 @@
-<svg width="1000" height="120" viewBox="0 0 1000 120" xmlns="http://www.w3.org/2000/svg">
+<svg width="1000" height="40" viewBox="0 0 1000 40" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <filter id="ultra-glow" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur stdDeviation="1" result="blur" />
+    <filter id="slim-glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="0.8" result="blur" />
       <feComposite in="SourceGraphic" in2="blur" operator="over" />
     </filter>
     <mask id="scan-mask">
-      <rect x="-1000" y="0" width="1000" height="120" fill="white">
-        <animateTransform attributeName="transform" type="translate" from="0,0" to="2000,0" dur="6s" repeatCount="indefinite" />
+      <rect x="-1000" y="0" width="1000" height="40" fill="white">
+        <animateTransform attributeName="transform" type="translate" from="0,0" to="2000,0" dur="5s" repeatCount="indefinite" />
       </rect>
     </mask>
   </defs>
 
-  <rect width="1000" height="120" fill="#05070A" />
+  <rect width="1000" height="40" fill="#05070A" />
 
-  <!-- Ultra-Faint Precision Grid -->
-  <path d="M 0 0 L 1000 0 M 0 20 L 1000 20 M 0 40 L 1000 40 M 0 60 L 1000 60 M 0 80 L 1000 80 M 0 100 L 1000 100 M 0 120 L 1000 120 M 0 0 L 0 120 M 20 0 L 20 120 M 40 0 L 40 120 M 60 0 L 60 120 M 80 0 L 80 120 M 100 0 L 100 120 M 120 0 L 120 120 M 140 0 L 140 120 M 160 0 L 160 120 M 180 0 L 180 120 M 200 0 L 200 120 M 220 0 L 220 120 M 240 0 L 240 120 M 260 0 L 260 120 M 280 0 L 280 120 M 300 0 L 300 120 M 320 0 L 320 120 M 340 0 L 340 120 M 360 0 L 360 120 M 380 0 L 380 120 M 400 0 L 400 120 M 420 0 L 420 120 M 440 0 L 440 120 M 460 0 L 460 120 M 480 0 L 480 120 M 500 0 L 500 120 M 520 0 L 520 120 M 540 0 L 540 120 M 560 0 L 560 120 M 580 0 L 580 120 M 600 0 L 600 120 M 620 0 L 620 120 M 640 0 L 640 120 M 660 0 L 660 120 M 680 0 L 680 120 M 700 0 L 700 120 M 720 0 L 720 120 M 740 0 L 740 120 M 760 0 L 760 120 M 780 0 L 780 120 M 800 0 L 800 120 M 820 0 L 820 120 M 840 0 L 840 120 M 860 0 L 860 120 M 880 0 L 880 120 M 900 0 L 900 120 M 920 0 L 920 120 M 940 0 L 940 120 M 960 0 L 960 120 M 980 0 L 980 120 M 1000 0 L 1000 120" 
-        fill="none" stroke="#FF0000" stroke-width="0.2" stroke-opacity="0.05" />
+  <!-- Ultra-Minimal Grid -->
+  <path d="M 0 0 L 1000 0 M 0 10 L 1000 10 M 0 20 L 1000 20 M 0 30 L 1000 30 M 0 40 L 1000 40 M 0 0 L 0 40 M 20 0 L 20 40 M 40 0 L 40 40 M 60 0 L 60 40 M 80 0 L 80 40 M 100 0 L 100 40 M 120 0 L 120 40 M 140 0 L 140 40 M 160 0 L 160 40 M 180 0 L 180 40 M 200 0 L 200 40 M 220 0 L 220 40 M 240 0 L 240 40 M 260 0 L 260 40 M 280 0 L 280 40 M 300 0 L 300 40 M 320 0 L 320 40 M 340 0 L 340 40 M 360 0 L 360 40 M 380 0 L 380 40 M 400 0 L 400 40 M 420 0 L 420 40 M 440 0 L 440 40 M 460 0 L 460 40 M 480 0 L 480 40 M 500 0 L 500 40 M 520 0 L 520 40 M 540 0 L 540 40 M 560 0 L 560 40 M 580 0 L 580 40 M 600 0 L 600 40 M 620 0 L 620 40 M 640 0 L 640 40 M 660 0 L 660 40 M 680 0 L 680 40 M 700 0 L 700 40 M 720 0 L 720 40" 
+        fill="none" stroke="#FF0000" stroke-width="0.2" stroke-opacity="0.04" />
 
-  <!-- Razor-Thin Heartbeat (0.8px) -->
-  <g filter="url(#ultra-glow)" mask="url(#scan-mask)">
-    <path d="M 0 60 L 40 60 L 45 55 L 50 60 L 60 60 L 65 20 L 70 100 L 75 60 L 90 60 L 100 45 L 110 60 L 200 60 L 205 55 L 210 60 L 220 60 L 225 20 L 230 100 L 235 60 L 250 60 L 260 45 L 270 60 L 360 60 L 365 55 L 370 60 L 380 60 L 385 20 L 390 100 L 395 60 L 410 60 L 420 45 L 430 60 L 520 60 L 525 55 L 530 60 L 540 60 L 545 20 L 550 100 L 555 60 L 570 60 L 580 45 L 590 60 L 680 60 L 685 55 L 690 60 L 700 60 L 705 20 L 710 100 L 715 60 L 730 60 L 740 45 L 750 60 L 840 60 L 845 55 L 850 60 L 860 60 L 865 20 L 870 100 L 875 60 L 890 60 L 900 45 L 910 60 L 1000 60" 
+  <!-- The Slim Pulse (0.8px) -->
+  <g filter="url(#slim-glow)" mask="url(#scan-mask)">
+    <path d="M 0 20 L 40 20 L 45 15 L 50 20 L 60 20 L 65 5 L 70 35 L 75 20 L 90 20 L 100 12 L 110 20 L 200 20 L 205 15 L 210 20 L 220 20 L 225 5 L 230 35 L 235 20 L 250 20 L 260 12 L 270 20 L 360 20 L 365 15 L 370 20 L 380 20 L 385 5 L 390 35 L 395 20 L 410 20 L 420 12 L 430 20 L 520 20 L 525 15 L 530 20 L 540 20 L 545 5 L 550 35 L 555 20 L 570 20 L 580 12 L 590 20 L 680 20 L 685 15 L 690 20 L 700 20 L 705 5 L 710 35 L 715 20 L 730 20 L 740 12 L 750 20 L 840 20 L 845 15 L 850 20 L 860 20 L 865 5 L 870 35 L 875 20 L 890 20 L 900 12 L 910 20 L 1000 20" 
           fill="none" stroke="#FF0000" stroke-width="0.8" stroke-linecap="round" stroke-linejoin="round">
     </path>
   </g>
 
   <!-- Leading Trace Point -->
-  <g filter="url(#ultra-glow)">
-    <circle cx="0" cy="60" r="1.5" fill="#FFFFFF">
-        <animateTransform attributeName="transform" type="translate" from="0,0" to="1000,0" dur="6s" repeatCount="indefinite" />
-        <animate attributeName="cy" values="60;60;55;60;60;20;100;60;60;45;60;60;60;55;60;60;20;100;60;60;45;60;60;60;55;60;60;20;100;60;60;45;60;60;60;55;60;60;20;100;60;60;45;60;60;60;55;60;60;20;100;60;60;45;60;60;60;55;60;60;20;100;60;60;45;60;60;60;55;60;60;20;100;60;60;45;60" dur="6s" repeatCount="indefinite" />
+  <g filter="url(#slim-glow)">
+    <circle cx="0" cy="20" r="1.2" fill="#FFFFFF">
+        <animateTransform attributeName="transform" type="translate" from="0,0" to="1000,0" dur="5s" repeatCount="indefinite" />
+        <animate attributeName="cy" values="20;20;15;20;20;5;35;20;20;12;20;20;20;15;20;20;5;35;20;20;12;20;20;20;15;20;20;5;35;20;20;12;20;20;20;15;20;20;5;35;20;20;12;20;20;20;15;20;20;5;35;20;20;12;20;20;20;15;20;20;5;35;20;20;12;20" dur="5s" repeatCount="indefinite" />
     </circle>
   </g>
 </svg>

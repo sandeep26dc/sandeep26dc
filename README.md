@@ -42,18 +42,9 @@
 
 <br /><br />
 
-<!-- 05_CONJOINED_FOOTER_BLOCK (No Gap Heartbeat & Zen Footer) -->
-<table width="100%" border="0" cellspacing="0" cellpadding="0">
-  <tr>
-    <td style="line-height: 0;">
-      <img src="electric_transmission.svg?v=3" width="100%" height="40" style="display: block; margin: 0;" />
-    </td>
-  </tr>
-  <tr>
-    <td style="line-height: 0;">
-      <img src="footer_zen.svg" width="100%" height="50" style="display: block; margin: 0;" />
-    </td>
-  </tr>
-</table>
+<!-- 05_CONJOINED_FOOTER_BLOCK (No Table, No Gap, No Borders) -->
+<div style="line-height: 0; font-size: 0;">
+  <img src="electric_transmission.svg?v=4" width="100%" height="40" style="display: block; margin: 0; border: none;" /><img src="footer_zen.svg" width="100%" height="50" style="display: block; margin: 0; border: none;" />
+</div>
 
 </div>

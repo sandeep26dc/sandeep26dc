@@ -1,0 +1,48 @@
+<svg width="1000" height="150" viewBox="0 0 1000 150" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Multi-layered glow filter for the plasma effect -->
+    <filter id="plasma-glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="4" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+    
+    <linearGradient id="bolt-gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FF4500" stop-opacity="0" />
+      <stop offset="50%" stop-color="#FF0000" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#FFFFFF" />
+    </linearGradient>
+  </defs>
+
+  <rect width="1000" height="150" fill="#05070A" />
+
+  <!-- THE TRANSMISSION BOLT GROUP -->
+  <g filter="url(#plasma-glow)">
+    <animateTransform attributeName="transform" type="translate" from="-400,0" to="1200,0" dur="3s" repeatCount="indefinite" />
+    
+    <!-- Trail Smoke/Plasma -->
+    <path d="M0 75 Q -50 60 -100 75 T -200 75" fill="none" stroke="#FF4500" stroke-width="15" stroke-linecap="round" opacity="0.3">
+        <animate attributeName="stroke-width" values="15;25;15" dur="0.2s" repeatCount="indefinite" />
+    </path>
+
+    <!-- Main Jagged Lightning Arcs (Trailing) -->
+    <g stroke="#FF0000" stroke-width="2" fill="none">
+        <!-- Top Arc -->
+        <path d="M0 75 L -30 55 L -60 85 L -100 65 L -150 75">
+            <animate attributeName="d" values="M0 75 L -30 55 L -60 85 L -100 65 L -150 75; M0 75 L -35 45 L -55 95 L -105 55 L -150 75; M0 75 L -30 55 L -60 85 L -100 65 L -150 75" dur="0.15s" repeatCount="indefinite" />
+        </path>
+        <!-- Bottom Arc -->
+        <path d="M0 75 L -40 95 L -80 65 L -120 105 L -180 75" opacity="0.6">
+            <animate attributeName="d" values="M0 75 L -40 95 L -80 65 L -120 105 L -180 75; M0 75 L -45 110 L -75 55 L -125 120 L -180 75; M0 75 L -40 95 L -80 65 L -120 105 L -180 75" dur="0.2s" repeatCount="indefinite" />
+        </path>
+    </g>
+
+    <!-- The Spearhead / Core of Energy -->
+    <path d="M10 75 L -20 68 L -15 75 L -20 82 Z" fill="#FFFFFF" />
+    <circle cx="0" cy="75" r="5" fill="#FF0000">
+        <animate attributeName="r" values="5;8;5" dur="0.1s" repeatCount="indefinite" />
+    </circle>
+  </g>
+
+  <!-- Ground/Static subtle interference line -->
+  <line x1="0" y1="149" x2="1000" y2="149" stroke="#FF0000" stroke-width="0.5" stroke-opacity="0.2" />
+</svg>

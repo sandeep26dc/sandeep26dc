@@ -1,17 +1,17 @@
 <div align="center">
 
-<!-- PINNACLE LANDSCAPE HEADER -->
-<img src="header_glow.svg" width="100%" />
+<!-- PINNACLE ETHEREAL HEADER -->
+<img src="ethereal_wave.svg" width="100%" />
 
 <br />
 
 <!-- IDENTITY TYPING -->
 <h1>
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=28&pause=1000&color=00F0FF&center=true&vCenter=true&width=700&lines=%E2%9C%A7+Digital+Alchemist;%E2%9C%A7+Creative+Experimenter;%E2%9C%A7+Engineering+for+Humanity;%E2%9C%A7+Pure+Open+Source" alt="Typing Identity" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=28&pause=1000&color=00F0FF&center=true&vCenter=true&width=700&lines=%E2%9C%A7+Digital+Alchemist;%E2%9C%A7+Creative+Experimenter;%E2%9C%A7+Engineering+for+Humanity;%E2%9C%A7+Free+for+Everyone" alt="Typing Identity" />
 </h1>
 
 <p align="center">
-  <em>"Engineering the impossible. Free for everyone. No expectations."</em>
+  <em>"A creative hobby to engineer the impossible. No profit. No expectations."</em>
 </p>
 
 <br />
@@ -22,7 +22,7 @@
 <br />
 
 <p width="85%">
-  I am a creative hobbyist. To me, code is a medium for art and a tool for impact. I build what the world has yet to see, and I offer it freely—no trackers, no profits, no expectations. Just pure, high-fidelity experiments in <strong>Internal Android Physics</strong> and <strong>Zen Aesthetics</strong>.
+  I am a creative hobbyist and experimenter. To me, code is a medium for art and a tool for impact. I build what the world has yet to see, and I offer it freely—no trackers, no profits, no hidden agendas. Just pure, high-fidelity experiments in <strong>Internal Android Physics</strong> and <strong>Zen Aesthetics</strong>.
 </p>
 
 <br />
@@ -30,6 +30,9 @@
 ---
 
 ## 💠 THE SENSORY MATRIX
+*Experimental artifacts and invisible discoveries.*
+
+<br />
 
 <table width="100%" border="0">
   <tr>
@@ -56,4 +59,12 @@
 <br />
 
 <a href="https://github.com/sandeep26dc/PlugPact/issues/new?title=IDEA:+[Describe+your+vision]&body=I+have+an+intrusive+thought+for+a+new+experiment:">
-  <img src="https://capsule-render.vercel.app/api?type
+  <img src="https://capsule-render.vercel.app/api?type=soft&color=00F0FF&height=60&section=header&text=%E2%9C%A7%20SUBMIT%20A%20NEW%20EXPERIMENT&fontSize=20&fontColor=000000&animation=twinkling" width="400" />
+</a>
+
+<br /><br />
+
+<!-- FOOTER -->
+<img src="https://capsule-render.vercel.app/render?type=rect&color=05070A&height=40&section=footer&text=ZEN%20PERFORMANCE%20%E2%80%A2%202026%20%E2%80%A2%20PURE%20OPEN%20SOURCE&fontSize=14&fontColor=00F0FF" width="100%" />
+
+</div>

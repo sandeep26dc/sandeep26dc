@@ -23,4 +23,23 @@
     <g>
       <animateTransform attributeName="transform" type="translate" values="0,0; 0,4; 0,0" dur="4s" repeatCount="indefinite" />
 
-      <!-- The Premium Boat (Detailed Silhouette
+      <!-- The Premium Boat (Detailed Silhouette) -->
+      <path d="M10 120 C 10 120 30 145 80 145 L 180 145 C 230 145 250 120 250 120 L 240 110 L 20 110 Z" fill="#05070A" stroke="#00F0FF" stroke-width="2" filter="url(#glow)"/>
+      
+      <!-- The Lifebuoy (Signature detail from your video) -->
+      <circle cx="190" cy="128" r="8" fill="none" stroke="#00F0FF" stroke-width="3" stroke-dasharray="4,4" />
+
+      <!-- THE ROWER (Anatomically Synced to Stroke) -->
+      <g transform="translate(110, 110)">
+        <!-- Torso Leaning Logic -->
+        <g>
+          <animateTransform attributeName="transform" type="rotate" values="10; -30; 10" dur="3s" repeatCount="indefinite" />
+          
+          <!-- Body -->
+          <path d="M-5 0 Q -10 -30 0 -50 L 15 -50 Q 20 -30 15 0 Z" fill="#00F0FF" opacity="0.9" />
+          <!-- Head -->
+          <circle cx="7" cy="-60" r="7" fill="#00F0FF" />
+          
+          <!-- Arms & Oar Group -->
+          <g transform="translate(5, -25)">
+            <animateTransform attributeName="transform" type="rotate" values="-20; 40; -20" dur="3s" repeat

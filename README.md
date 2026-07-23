@@ -42,11 +42,11 @@
 
 <br /><br />
 
-<!-- 05_LIFE_PULSE_HEARTBEAT (Red ECG Pulse Loop) -->
+<!-- 05_LIFE_PULSE_HEARTBEAT (Razor-Thin 0.8px Minimalist Loop) -->
 <img src="electric_transmission.svg" width="100%" />
 
 <p align="center">
-  <code>[ SYSTEM_CORE_PULSE: VIBRANT ]</code>
+  <code>[ SYSTEM_CORE_PULSE: STABLE_MINIMAL ]</code>
 </p>
 
 <br />

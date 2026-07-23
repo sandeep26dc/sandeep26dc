@@ -42,17 +42,18 @@
 
 <br /><br />
 
-<!-- 05_LIFE_PULSE_HEARTBEAT (Constrained Ribbon Height) -->
-<!-- Adding ?v=2 forces GitHub to refresh the cache to the new slim version -->
-<img src="electric_transmission.svg?v=2" width="100%" height="40" />
-
-<p align="center">
-  <code>[ SYSTEM_CORE_PULSE: STABLE_MINIMAL ]</code>
-</p>
-
-<br />
-
-<!-- 06_STABLE_ZEN_FOOTER -->
-<img src="footer_zen.svg" width="100%" />
+<!-- 05_CONJOINED_FOOTER_BLOCK (No Gap Heartbeat & Zen Footer) -->
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td style="line-height: 0;">
+      <img src="electric_transmission.svg?v=3" width="100%" height="40" style="display: block; margin: 0;" />
+    </td>
+  </tr>
+  <tr>
+    <td style="line-height: 0;">
+      <img src="footer_zen.svg" width="100%" height="50" style="display: block; margin: 0;" />
+    </td>
+  </tr>
+</table>
 
 </div>

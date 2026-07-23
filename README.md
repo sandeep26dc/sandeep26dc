@@ -1,11 +1,11 @@
 <div align="center">
 
-<!-- PINNACLE ETHEREAL HEADER -->
+<!-- 01_PINNACLE_ETHEREAL_HEADER -->
 <img src="ethereal_wave.svg" width="100%" />
 
 <br />
 
-<!-- IDENTITY TYPING -->
+<!-- 02_IDENTITY_TYPING_ENGINE -->
 <h1>
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=28&pause=1000&color=00F0FF&center=true&vCenter=true&width=700&lines=%E2%9C%A7+Digital+Alchemist;%E2%9C%A7+Creative+Experimenter;%E2%9C%A7+Engineering+for+Humanity;%E2%9C%A7+Free+for+Everyone" alt="Typing Identity" />
 </h1>
@@ -16,7 +16,7 @@
 
 <br />
 
-<!-- INVERTED LIQUID MANIFESTO -->
+<!-- 03_SUBMERGED_MISSION_MANIFESTO -->
 <img src="https://capsule-render.vercel.app/api?type=waving&color=00F0FF&height=100&section=footer&text=MISSION%20MANIFESTO&fontSize=35&fontColor=000000&animation=twinkle&fontAlignY=70" width="100%" />
 
 <br />
@@ -29,7 +29,7 @@
 
 ---
 
-<!-- THE INSPIRATION TERMINAL (Electric Spark Background) -->
+<!-- 04_THE_INSPIRATION_TERMINAL (Electric Spark Background) -->
 <img src="inspiration_fire.svg" width="100%" />
 
 <p align="center"><em>Have an intrusive thought for a new world? Let's manifest it.</em></p>
@@ -42,10 +42,16 @@
 
 <br /><br />
 
-<!-- THE ROWING JOURNEY ANIMATION -->
-<img src="rowing_journey.svg" width="100%" />
+<!-- 05_LIFE_PULSE_HEARTBEAT (Red ECG Pulse Loop) -->
+<img src="electric_transmission.svg" width="100%" />
 
-<!-- STABLE ZEN FOOTER -->
+<p align="center">
+  <code>[ SYSTEM_CORE_PULSE: VIBRANT ]</code>
+</p>
+
+<br />
+
+<!-- 06_STABLE_ZEN_FOOTER -->
 <img src="footer_zen.svg" width="100%" />
 
 </div>

@@ -1,50 +1,73 @@
 <div align="center">
 
-<!-- 01_PINNACLE_ETHEREAL_HEADER -->
-<img src="ethereal_wave.svg" width="100%" />
+  <!-- Typing Identity Engine -->
+  <h1>
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=28&pause=1000&color=00E5FF&center=true&vCenter=true&width=750&lines=%E2%9C%A7+Digital+Alchemist+&+Android+Architect;%E2%9C%A7+Crafting+Zen-Calm+Visual+Environments;%E2%9C%A7+GPU-Accelerated+Shaders+%26+Vector+Physics;%E2%9C%A7+Engineering+the+Impossible+-+Free+for+All" alt="Typing Identity" />
+  </h1>
 
-<br />
+  <p><strong>FLUID EXPERIENCE DESIGN & SENSORY COMPUTING LAB</strong></p>
+  <p><em>Architected by <strong>Sandeep Som</strong> • <code>@sandeep26dc</code></em></p>
 
-<!-- 02_IDENTITY_TYPING_ENGINE -->
-<h1>
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=28&pause=1000&color=00F0FF&center=true&vCenter=true&width=700&lines=%E2%9C%A7+Digital+Alchemist;%E2%9C%A7+Creative+Experimenter;%E2%9C%A7+Engineering+for+Humanity;%E2%9C%A7+Free+for+Everyone" alt="Typing Identity" />
-</h1>
+  <br>
 
-<p align="center">
-  <em>"Engineering the impossible. Free for everyone. No profit. No expectations."</em>
-</p>
+  <!-- Live Status & Core Tech Badges -->
+  <a href="https://github.com/sandeep26dc">
+    <img src="https://img.shields.io/badge/STUDIO_STATUS-ACTIVE_EXPERIMENTATION-00E5FF?style=for-the-badge&logo=android&logoColor=black" alt="Status">
+  </a>
+  <a href="https://kotlinlang.org/">
+    <img src="https://img.shields.io/badge/CORE-KOTLIN_2.0-00E5FF?style=for-the-badge&logo=kotlin&logoColor=black" alt="Kotlin">
+  </a>
+  <a href="https://developer.android.com/jetpack/compose">
+    <img src="https://img.shields.io/badge/UI-COMPOSE_GRAPHICS-7C4DFF?style=for-the-badge&logo=jetpackcompose&logoColor=white" alt="Compose">
+  </a>
+  <a href="https://rive.app/">
+    <img src="https://img.shields.io/badge/PHYSICS-RIVE_VECTOR_ENGINE-FF9100?style=for-the-badge&logo=rive&logoColor=white" alt="Rive">
+  </a>
 
-<br />
+  <br><br>
 
-<!-- 03_SUBMERGED_MISSION_MANIFESTO -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=00F0FF&height=100&section=footer&text=MISSION%20MANIFESTO&fontSize=35&fontColor=000000&animation=twinkle&fontAlignY=70" width="100%" />
+  <p width="85%">
+    Welcome to my digital workshop. I design and engineer mobile applications that reject rigid, static interfaces. My work focuses on <strong>zen-calm atmospheres</strong>, <strong>GPU-accelerated AGSL shaders</strong>, and <strong>sensor-bound vector physics</strong>—turning everyday digital interactions into tactile, living experiences. Free for everyone. No commercial agendas. Just pure exploratory craft.
+  </p>
 
-<br />
+  <br>
+  <hr style="border: 0; height: 1px; background: linear-gradient(to right, transparent, #00E5FF, transparent);" />
+  <br>
 
-<p width="85%">
-  I am a creative hobbyist and experimenter. To me, code is a medium for art and a tool for impact. I build what the world has yet to see, and I offer it freely—no trackers, no profits, no hidden agendas. Just pure, high-fidelity experiments in <strong>Internal Android Physics</strong> and <strong>Zen Aesthetics</strong>.
-</p>
+  <!-- The Philosophy Grid / Pillars -->
+  <h3>🧬 Core Exploration Pillars</h3>
+  
+  <br>
 
-<br />
+  <table align="center" style="border: none; background: transparent;">
+    <tr>
+      <td align="center" width="33%" style="padding: 10px;">
+        <img src="https://img.shields.io/badge/01._GPU_SHADERS-AGSL_%26_SKIA-00E5FF?style=for-the-badge&logo=opengl&logoColor=black" /><br>
+        <sub style="color: #9CA3AF;">Continuous organic mesh gradients and fluid background lighting calculated natively on the GPU.</sub>
+      </td>
+      <td align="center" width="33%" style="padding: 10px;">
+        <img src="https://img.shields.io/badge/02._VECTOR_PHYSICS-RIVE_ENGINE-7C4DFF?style=for-the-badge&logo=rive&logoColor=white" /><br>
+        <sub style="color: #9CA3AF;">Real-time accelerometer liquid sloshing and inertial eye-tracking components.</sub>
+      </td>
+      <td align="center" width="33%" style="padding: 10px;">
+        <img src="https://img.shields.io/badge/03._TACTILE_MOTION-SPRING_DAMPING-FF9100?style=for-the-badge&logo=android&logoColor=black" /><br>
+        <sub style="color: #9CA3AF;">Non-linear physics springs that give UI elements weight, depth, and organic bounce.</sub>
+      </td>
+    </tr>
+  </table>
 
----
+  <br><br>
 
-<!-- 04_THE_INSPIRATION_TERMINAL -->
-<img src="inspiration_fire.svg" width="100%" />
+  <!-- Collaboration / Intrusive Thought Terminal -->
+  <h3>✨ Have an intrusive thought for a new world?</h3>
+  <p><em>Let's manifest it together into a high-end application experiment.</em></p>
 
-<p align="center"><em>Have an intrusive thought for a new world? Let's manifest it.</em></p>
+  <br>
 
-<br />
+  <a href="https://github.com/sandeep26dc/sandeep26dc/issues/new?title=IDEA:+[Describe+your+vision]&body=I+have+an+intrusive+thought+for+a+new+high-end+experiment:">
+    <img src="https://img.shields.io/badge/%E2%9C%A7_SUBMIT_A_NEW_EXPERIMENT-00E5FF?style=for-the-badge&labelColor=05070A&color=00E5FF" height="45" />
+  </a>
 
-<a href="https://github.com/sandeep26dc/PlugPact/issues/new?title=IDEA:+[Describe+your+vision]&body=I+have+an+intrusive+thought+for+a+new+experiment:">
-  <img src="https://img.shields.io/badge/%E2%9C%A7_SUBMIT_A_NEW_EXPERIMENT-00F0FF?style=for-the-badge&labelColor=05070A&color=00F0FF" height="45" />
-</a>
-
-<br /><br />
-
-<!-- 05_CONJOINED_FOOTER_BLOCK (No Table, No Gap, No Borders) -->
-<div style="line-height: 0; font-size: 0;">
-  <img src="electric_transmission.svg?v=4" width="100%" height="40" style="display: block; margin: 0; border: none;" /><img src="footer_zen.svg" width="100%" height="50" style="display: block; margin: 0; border: none;" />
-</div>
+  <br><br>
 
 </div>
